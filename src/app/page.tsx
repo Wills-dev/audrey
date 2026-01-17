@@ -1,10 +1,9 @@
-import HomeWrapper from "@/components/organism/HomeWrapper/HomeWrapper";
-import MainLayout from "@/components/template/MainLayout/MainLayout";
+import Navbar from "@/components/organisms/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <MainLayout>
-      <HomeWrapper />
-    </MainLayout>
+    <div className="relative min-h-screen w-full">
+      <Navbar />
+    </div>
   );
 }
