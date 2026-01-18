@@ -2,14 +2,14 @@
 
 import { motion } from "framer-motion";
 
-import AboutTitle from "@/components/atoms/AboutTitle/AboutTitle";
+import PageTitle from "@/components/atoms/PageTitle/PageTitle";
 import Paragraphs from "@/components/atoms/Paragraphs/Paragraphs";
 import Count from "@/components/atoms/Count/Count";
 
 const AboutContent = () => {
   return (
     <div className="sm:space-y-8 space-y-6 flex-1">
-      <AboutTitle />
+      <PageTitle title="About Me" showDot />
       <motion.div
         className="sm:space-y-6 space-y-4 max-w-2xl w-full sm:min-w-[350px] min-w-[280px]"
         initial="hidden"
