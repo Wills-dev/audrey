@@ -22,7 +22,7 @@ const PageTitle = ({
       className=" flex items-center gap-1"
     >
       <h2
-        className={`sm:text-[80px] text-[50px] special-font p-0 leading-none ${textColor}`}
+        className={`sm:text-[80px] text-[50px] special-font p-0 leading-none tracking-[-4.4px] ${textColor}`}
       >
         {title}
       </h2>

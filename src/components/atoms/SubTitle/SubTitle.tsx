@@ -2,14 +2,20 @@
 
 import { motion } from "framer-motion";
 
-const SubTitle = ({ subTitle }: { subTitle: string }) => {
+const SubTitle = ({
+  subTitle,
+  maxWidth = "max-w-[786px]",
+}: {
+  subTitle: string;
+  maxWidth?: string;
+}) => {
   return (
     <motion.p
       initial={{ scale: 0 }}
       whileInView={{ scale: 1 }}
       transition={{ delay: 0.8, duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true }}
-      className="max-w-[786px] w-full sm:text-[24px] text-lg text-[#3A3A3AB2]"
+      className={`${maxWidth} w-full sm:text-[24px] text-lg text-[#3A3A3AB2]`}
     >
       {subTitle}
     </motion.p>
