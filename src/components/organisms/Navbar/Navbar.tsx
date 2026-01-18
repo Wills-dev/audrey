@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <header className="w-full bg-[#1F1535F2]/95 py-4 backdrop-blur-2xl border border-white/5">
+      <header className="w-full bg-[#1F1535] py-4 backdrop-blur-2xl border border-white/5">
         <Container>
           <div className="flex justify-between items-center">
             <Logo />
