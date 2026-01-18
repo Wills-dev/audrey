@@ -104,7 +104,7 @@ const CaseStudy = ({
                 },
               },
             }}
-            className="max-sm:text-sm"
+            className="max-sm:text-sm text-[#2A2A2ACC]"
           >
             {description}
           </motion.p>
