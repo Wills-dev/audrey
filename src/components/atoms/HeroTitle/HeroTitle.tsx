@@ -16,7 +16,7 @@ const HeroTitle = () => {
       }}
       className=""
     >
-      <h2 className="md:text-[90px] sm:text-[65px] font-light text-5xl p-0 m-0 leading-tight max-w-[700px] special-font text-white">
+      <h2 className="md:text-[104px] sm:text-[65px] font-light text-5xl p-0 m-0 leading-tight max-w-[788px] special-font text-white tracking-[-3px]">
         {["Most", "products"].map((word, i) => (
           <motion.span
             key={i}

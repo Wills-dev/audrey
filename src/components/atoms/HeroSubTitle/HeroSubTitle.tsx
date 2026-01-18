@@ -18,7 +18,7 @@ const HeroSubTitle = () => {
         }}
         className=""
       >
-        <h2 className="md:text-[100px] sm:text-[80px] font-bold text-6xl p-0 m-0 sm:leading-24 leading-t max-w-[800px] special-font text-[#FFD166]">
+        <h2 className="md:text-[110px] sm:text-[80px] font-bold text-6xl p-0 m-0 sm:leading-24 leading-14 tracking-[-3.96px] max-w-[788px] special-font text-[#FFD166]">
           {["I", "design", "the", "ones", "that", "don't."].map((word, i) => (
             <motion.span
               key={i}
