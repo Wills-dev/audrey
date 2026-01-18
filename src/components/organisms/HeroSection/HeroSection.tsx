@@ -16,7 +16,7 @@ const HeroSection = () => {
       className="bg-[linear-gradient(180deg,#1F1535_0%,#2A1A4A_50%,#1F1535_100%)] min-h-screen w-full"
     >
       <Container>
-        <div className="py-24 space-y-6">
+        <div className="sm:py-24 py-20 space-y-6">
           <HeroTitle />
           <motion.div
             initial={{ opacity: 0 }}
