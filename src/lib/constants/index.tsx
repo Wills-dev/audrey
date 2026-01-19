@@ -35,3 +35,90 @@ export const services = [
     icon: "/assets/icons/flash.svg",
   },
 ];
+
+export const tools = [
+  {
+    caption: "Design",
+    items: [
+      {
+        icon: "/assets/icons/figma.svg",
+        title: "Figma",
+      },
+      {
+        icon: "/assets/icons/sketch.svg",
+        title: "Sketch",
+      },
+      {
+        icon: "/assets/icons/adobe.svg",
+        title: "Adobe XD",
+      },
+      {
+        icon: "/assets/icons/affinity.svg",
+        title: "Affinity",
+      },
+    ],
+  },
+  {
+    caption: "Prototyping",
+    items: [
+      {
+        icon: "/assets/icons/figma.svg",
+        title: "Figma (yes again, it top tier)",
+      },
+      {
+        icon: "/assets/icons/framer.svg",
+        title: "Framer",
+      },
+      {
+        icon: "/assets/icons/prototype.svg",
+        title: "ProtoPie",
+      },
+      {
+        icon: "/assets/icons/miro.svg",
+        title: "Miro",
+      },
+    ],
+  },
+  {
+    caption: "Collaboration",
+    items: [
+      {
+        icon: "/assets/icons/asana.svg",
+        title: "Asana",
+      },
+      {
+        icon: "/assets/icons/notion.svg",
+        title: "Notion",
+      },
+      {
+        icon: "/assets/icons/jira.svg",
+        title: "Jira",
+      },
+      {
+        icon: "/assets/icons/slack.svg",
+        title: "Slack",
+      },
+    ],
+  },
+  {
+    caption: "Research",
+    items: [
+      {
+        icon: "/assets/icons/maze.svg",
+        title: "Maze",
+      },
+      {
+        icon: "/assets/icons/usertesting.svg",
+        title: "UserTesting",
+      },
+      {
+        icon: "/assets/icons/hotjar.svg",
+        title: "Hotjar",
+      },
+      {
+        icon: "/assets/icons/typeform.svg",
+        title: "Typeform",
+      },
+    ],
+  },
+];

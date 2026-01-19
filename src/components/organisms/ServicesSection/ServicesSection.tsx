@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 import SectionWrapper from "@/components/molecules/SectionWrapper/SectionWrapper";
 import ServiceHeading from "@/components/molecules/ServiceHeading/ServiceHeading";
-
-import { services } from "@/lib/constants";
 import ServiceGuide from "@/components/atoms/ServiceGuide/ServiceGuide";
 import Service from "@/components/molecules/Service/Service";
+
+import { services } from "@/lib/constants";
 
 const ServicesSection = () => {
   return (
@@ -15,7 +15,7 @@ const ServicesSection = () => {
       id="services"
       bgColor="bg-[linear-gradient(135deg,#FDFCFB_0%,rgba(232,223,245,0.2)_100%)]"
     >
-      <div className="space-y-24">
+      <div className="sm:space-y-24 space-y-16">
         <ServiceHeading />
         <motion.div
           className="grid sm:grid-cols-2 grid-cols-1 gap-6"

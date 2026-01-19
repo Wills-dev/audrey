@@ -4,6 +4,7 @@ import HeroSection from "@/components/organisms/HeroSection/HeroSection";
 import Navbar from "@/components/organisms/Navbar/Navbar";
 import ProjectSection from "@/components/organisms/ProjectSection/ProjectSection";
 import ServicesSection from "@/components/organisms/ServicesSection/ServicesSection";
+import TooolsSection from "@/components/organisms/TooolsSection/TooolsSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <CaseStudiesSection />
       <ProjectSection />
       <ServicesSection />
+      <TooolsSection />
     </div>
   );
 }
