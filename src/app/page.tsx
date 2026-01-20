@@ -2,6 +2,7 @@ import About from "@/components/organisms/About/About";
 import BeyondScreenSection from "@/components/organisms/BeyondScreenSection/BeyondScreenSection";
 import CaseStudiesSection from "@/components/organisms/CaseStudiesSection/CaseStudiesSection";
 import HeroSection from "@/components/organisms/HeroSection/HeroSection";
+import LetsWorkSection from "@/components/organisms/LetsWorkSection/LetsWorkSection";
 import Navbar from "@/components/organisms/Navbar/Navbar";
 import ProjectSection from "@/components/organisms/ProjectSection/ProjectSection";
 import ServicesSection from "@/components/organisms/ServicesSection/ServicesSection";
@@ -18,6 +19,7 @@ export default function Home() {
       <ServicesSection />
       <TooolsSection />
       <BeyondScreenSection />
+      <LetsWorkSection />
     </div>
   );
 }
