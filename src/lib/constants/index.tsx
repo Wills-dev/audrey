@@ -122,3 +122,48 @@ export const tools = [
     ],
   },
 ];
+
+export const beyondScreen = [
+  {
+    caption: "Environment",
+    desc: "Caring about the world around me.",
+    bgColor: "bg-[#D5F4E615]",
+    iconBg: "bg-[#D5F4E6]",
+    icon: "/assets/icons/environment.svg",
+  },
+  {
+    caption: "Painting",
+    desc: "Making moments come alive with color.",
+    bgColor: "bg-[#E8DFF515]",
+    iconBg: "bg-[#E8DFF5]",
+    icon: "/assets/icons/painting.svg",
+  },
+  {
+    caption: "Reading",
+    desc: "Getting lost in stories and ideas..",
+    bgColor: "bg-[#D6E9F515]",
+    iconBg: "bg-[#D6E9F5]",
+    icon: "/assets/icons/reading.svg",
+  },
+  {
+    caption: "Travel",
+    desc: "Finding new perspectives across cultures.",
+    bgColor: "bg-[#FFF5E115]",
+    iconBg: "bg-[#FFF5E1]",
+    icon: "/assets/icons/travel.svg",
+  },
+  {
+    caption: "Cooking",
+    desc: "Turning simple ingredients into masterpieces.",
+    bgColor: "bg-[#FFE5D915]",
+    iconBg: "bg-[#FFE5D9]",
+    icon: "/assets/icons/cooking.svg",
+  },
+  {
+    caption: "Gaming",
+    desc: "Exploring new worlds and challenges.",
+    bgColor: "bg-[#FFE5D915]",
+    iconBg: "bg-[#FFE5D9]",
+    icon: "/assets/icons/gaming.svg",
+  },
+];
