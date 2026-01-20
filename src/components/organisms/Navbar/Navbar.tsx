@@ -1,11 +1,13 @@
 "use client";
+
+import { useState } from "react";
+
 import { AnimatePresence, motion } from "framer-motion";
 
 import Container from "@/components/atoms/Container/Container";
 import LetsTalkButton from "@/components/atoms/LetsTalkButton/LetsTalkButton";
 import Logo from "@/components/atoms/Logo/Logo";
 import NavWrapper from "@/components/molecules/NavWrapper/NavWrapper";
-import { useState } from "react";
 import Sidebar from "../Sidebar/Sidebar";
 
 const Navbar = () => {
@@ -14,7 +16,7 @@ const Navbar = () => {
   const toggleSidebar = () => setShowSidebar((prev) => !prev);
 
   return (
-    <div className="">
+    <div className="" id="top">
       <header className="w-full bg-[#1F1535] py-4 backdrop-blur-2xl border border-white/5">
         <Container>
           <div className="flex justify-between items-center">

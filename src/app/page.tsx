@@ -1,6 +1,7 @@
 import About from "@/components/organisms/About/About";
 import BeyondScreenSection from "@/components/organisms/BeyondScreenSection/BeyondScreenSection";
 import CaseStudiesSection from "@/components/organisms/CaseStudiesSection/CaseStudiesSection";
+import Footer from "@/components/organisms/Footer/Footer";
 import HeroSection from "@/components/organisms/HeroSection/HeroSection";
 import LetsWorkSection from "@/components/organisms/LetsWorkSection/LetsWorkSection";
 import Navbar from "@/components/organisms/Navbar/Navbar";
@@ -20,6 +21,7 @@ export default function Home() {
       <TooolsSection />
       <BeyondScreenSection />
       <LetsWorkSection />
+      <Footer />
     </div>
   );
 }
