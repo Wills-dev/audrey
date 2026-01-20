@@ -1,4 +1,5 @@
 import About from "@/components/organisms/About/About";
+import BeyondScreenSection from "@/components/organisms/BeyondScreenSection/BeyondScreenSection";
 import CaseStudiesSection from "@/components/organisms/CaseStudiesSection/CaseStudiesSection";
 import HeroSection from "@/components/organisms/HeroSection/HeroSection";
 import Navbar from "@/components/organisms/Navbar/Navbar";
@@ -16,6 +17,7 @@ export default function Home() {
       <ProjectSection />
       <ServicesSection />
       <TooolsSection />
+      <BeyondScreenSection />
     </div>
   );
 }
