@@ -254,3 +254,18 @@ export const letsWork = [
     ),
   },
 ];
+
+export const cicoProjectTools = [
+  {
+    title: "UI/UX Design",
+    className: "text-[#432DD7] bg-[#E0E7FF]",
+  },
+  {
+    className: "bg-[#F3E8FF] text-[#8200DB]",
+    title: "Mobile App",
+  },
+  {
+    className: "bg-[#DBEAFE] text-[#1447E6]",
+    title: "Fintech",
+  },
+];
