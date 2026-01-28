@@ -1,6 +1,7 @@
 import { cicoProjectTools } from "@/lib/constants";
 
 import ProjectCardBig from "../ProjectCardBig/ProjectCardBig";
+import ProjectCardImg from "../ProjectCardImg/ProjectCardImg";
 
 const ProjectCico = () => {
   return (
@@ -8,6 +9,7 @@ const ProjectCico = () => {
       <div className="max-w-[1128px] w-full grid md:grid-cols-2 grid-cols-1">
         <ProjectCardBig
           initial="C"
+          mainClassName="bg-linear-to-b from-[#FFFFFF] to-[#F8FAFC]"
           initialClassName="c-initial bg-gradient-to-b from-[#4F39F6] to-[#432DD7]"
           statusTitle="Design & Prototype"
           statusClassName="text-[#007A55] border-[#A4F4CF] bg-[#ECFDF5]"
@@ -22,7 +24,10 @@ const ProjectCico = () => {
           category="Mobile Banking"
           index={0}
         />
-        <div className="min-h-[812.75px] bg-linear-to-br from-[#4F39F6] via-[#432DD7] to-[#8200DB] rounded-r-3xl"></div>
+        <ProjectCardImg
+          className="bg-linear-to-br from-[#4F39F6] via-[#432DD7] to-[#8200DB]"
+          imgUrl="/assets/images/project-img1.svg"
+        />
       </div>
     </div>
   );

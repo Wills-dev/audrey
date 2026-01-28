@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 const InitialDisplay = ({
   className,
   initial,
@@ -6,11 +10,18 @@ const InitialDisplay = ({
   initial: string;
 }) => {
   return (
-    <div
-      className={`w-16 h-16 rounded-2xl flex justify-center items-center ${className}`}
+    <motion.div
+      whileHover={{
+        scale: 1.1,
+        rotate: [0, -5, 5, 0],
+        transition: { duration: 0.5 },
+      }}
+      className={`sm:w-16 sm:h-16 h-12 w-12 sm:rounded-2xl rounded-xl flex justify-center items-center ${className}`}
     >
-      <p className="font-bold text-[30px] text-white">{initial}</p>
-    </div>
+      <p className="font-bold sm:text-[30px] text-[24px] text-white">
+        {initial}
+      </p>
+    </motion.div>
   );
 };
 

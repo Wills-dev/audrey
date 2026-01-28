@@ -7,7 +7,7 @@ const ProjectToolCard = ({
 }) => {
   return (
     <div
-      className={`${className} font-medium sm:text-sm rounded-[14px] px-4 h-11 flex justify-center items-center text-center`}
+      className={`${className} font-medium sm:text-sm text-xs sm:rounded-[14px] rounded-md px-4 sm:h-11 h-8 flex justify-center items-center text-center`}
     >
       {title}
     </div>

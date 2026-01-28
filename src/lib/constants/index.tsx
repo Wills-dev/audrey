@@ -269,3 +269,18 @@ export const cicoProjectTools = [
     title: "Fintech",
   },
 ];
+
+export const toolKitProjectTools = [
+  {
+    title: "Resources",
+    className: "text-[#BB4D00] bg-[#FEF3C6]",
+  },
+  {
+    className: "bg-[#DBEAFE] text-[#1447E6]",
+    title: "Free Access",
+  },
+  {
+    className: "bg-[#D0FAE5] text-[#007A55]",
+    title: "2026 Trends",
+  },
+];
