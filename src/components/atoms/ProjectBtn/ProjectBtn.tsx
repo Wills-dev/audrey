@@ -12,7 +12,7 @@ const ProjectBtn = ({
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className={`${className} flex items-center gap-2 justify-center h-14 rounded-[14px] px-8 text-white w-fit`}
+      className={`${className} flex items-center gap-2 justify-center h-14 rounded-[14px] px-8 group text-white w-fit hover:opacity-90 duration-300 transition-all`}
     >
       {caption}
       <svg
@@ -21,7 +21,7 @@ const ProjectBtn = ({
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-3"
+        className="size-3 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300"
       >
         <path
           strokeLinecap="round"
