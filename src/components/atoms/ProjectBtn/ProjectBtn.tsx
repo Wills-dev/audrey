@@ -12,7 +12,7 @@ const ProjectBtn = ({
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className={`${className} flex items-center gap-2 justify-center h-14 rounded-[14px] px-8 group text-white w-fit hover:opacity-90 duration-300 transition-all`}
+      className={`${className} flex items-center gap-2 justify-center sm:h-14 h-12 sm:rounded-[14px] rounded-md max-sm:text-sm px-8 group text-white w-fit hover:opacity-90 duration-300 transition-all`}
     >
       {caption}
       <svg

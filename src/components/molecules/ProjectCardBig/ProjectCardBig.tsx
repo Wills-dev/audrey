@@ -26,6 +26,7 @@ interface ProjectCardProps {
   year: string;
   category: string;
   index?: number;
+  mainClassName: string;
 }
 
 const ProjectCardBig = ({
@@ -43,6 +44,7 @@ const ProjectCardBig = ({
   year,
   category,
   index = 0,
+  mainClassName,
 }: ProjectCardProps) => {
   return (
     <motion.div
@@ -70,7 +72,9 @@ const ProjectCardBig = ({
       }}
       className="bg-white rounded-3xl shadow-[0px_25px_50px_-12px_#615FFF1A]"
     >
-      <div className="bg-linear-to-b rounded-l-3xl from-[#FFFFFF] to-[#F8FAFC] w-full min-h-[812.75px] sm:p-16 p-8 space-y-6">
+      <div
+        className={`rounded-l-3xl w-full min-h-[812.75px] sm:p-16 p-4 space-y-6 ${mainClassName}`}
+      >
         <motion.div
           variants={{
             hidden: { opacity: 0, x: -30 },
@@ -82,34 +86,9 @@ const ProjectCardBig = ({
           }}
           className="flex items-center gap-4"
         >
-          <motion.div
-            whileHover={{
-              scale: 1.1,
-              rotate: [0, -5, 5, 0],
-              transition: { duration: 0.5 },
-            }}
-          >
-            <InitialDisplay className={initialClassName} initial={initial} />
-          </motion.div>
-          <motion.div
-            initial={{ scale: 0, x: -20 }}
-            whileInView={{ scale: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{
-              duration: 0.5,
-              delay: 0.4 + index * 0.2,
-              type: "spring",
-              stiffness: 200,
-            }}
-          >
-            <ProjectTitleBubble
-              className={statusClassName}
-              title={statusTitle}
-            />
-          </motion.div>
+          <InitialDisplay className={initialClassName} initial={initial} />
+          <ProjectTitleBubble className={statusClassName} title={statusTitle} />
         </motion.div>
-
-        {/* Title */}
         <motion.div
           variants={{
             hidden: { opacity: 0, y: 20 },
