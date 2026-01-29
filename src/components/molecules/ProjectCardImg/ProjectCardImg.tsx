@@ -13,8 +13,8 @@ const ProjectCardImg = ({
 }) => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0, x: 200 }}
+      whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
       className={`md:min-h-[812.75px] md:rounded-r-3xl max-md:rounded-3xl p-8 max-sm:px-4 flex items-end justify-center ${className}`}
     >
@@ -24,6 +24,7 @@ const ProjectCardImg = ({
         width={468}
         height={716.75}
         className="object-contain"
+        priority
       />
     </motion.div>
   );

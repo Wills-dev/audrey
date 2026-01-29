@@ -27,6 +27,7 @@ interface ProjectCardProps {
   category: string;
   index?: number;
   mainClassName: string;
+  mainShadow?: string;
 }
 
 const ProjectCardBig = ({
@@ -45,6 +46,7 @@ const ProjectCardBig = ({
   category,
   index = 0,
   mainClassName,
+  mainShadow = "shadow-[0px_25px_50px_-12px_#615FFF1A]",
 }: ProjectCardProps) => {
   return (
     <motion.div
@@ -70,10 +72,10 @@ const ProjectCardBig = ({
         y: -8,
         transition: { duration: 0.3, ease: "easeOut" },
       }}
-      className="bg-white rounded-3xl shadow-[0px_25px_50px_-12px_#615FFF1A]"
+      className={`bg-white rounded-3xl ${mainShadow}`}
     >
       <div
-        className={`rounded-l-3xl w-full min-h-[812.75px] sm:p-16 p-4 space-y-6 ${mainClassName}`}
+        className={`rounded-l-3xl w-full md:min-h-[812.75px] sm:p-16 p-4 space-y-6 ${mainClassName}`}
       >
         <motion.div
           variants={{

@@ -6,9 +6,10 @@ import ProjectCardImg from "../ProjectCardImg/ProjectCardImg";
 const ProjectToolKit = () => {
   return (
     <div className="w-full flex justify-end">
-      <div className="max-w-[1128px] w-full grid md:grid-cols-2 grid-cols-1">
+      <div className="max-w-[1128px] w-full grid md:grid-cols-2 grid-cols-1 max-md:gap-4">
         <ProjectCardBig
           initial="D"
+          mainShadow="shadow-[0px_25px_50px_-12px_#FE9A001A]"
           mainClassName="bg-linear-to-b from-[#FFFFFF] to-[#FFFBEB]"
           initialClassName="d-initial bg-gradient-to-b from-[#FFB900] to-[#F0B100]"
           statusTitle="Design Resource"
