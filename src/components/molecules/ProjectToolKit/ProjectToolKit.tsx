@@ -19,7 +19,7 @@ const ProjectToolKit = () => {
           description="A comprehensive collection of 100+ curated design resources, tools, and assets for modern designers."
           tools={toolKitProjectTools}
           btnCaption="View Resource"
-          btnUrl="https://www.figma.com/proto/..."
+          btnUrl="https://www.figma.com/design/KujT5szozEjNuo3SgywcPs/DESIGN-TOOLKIT?node-id=0-1&t=beUmjpEY3JcDn5eA-1"
           btnClassName="bg-gradient-to-r from-[#FE9A00] to-[#D08700] d-initial"
           year="2026"
           category="Design Resources"
